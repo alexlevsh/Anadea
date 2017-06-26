@@ -1,0 +1,54 @@
+@import '~./global';
+
+.service {
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    .service {
+      &__title {
+        color: $color_blue;
+      }
+
+      &__circle {
+        border-color: $color_gray;
+      }
+    }
+  }
+
+  &__circle {
+    @include transition(border-color .3s ease);
+
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 60px;
+    margin: auto auto 7px;
+    position: relative;
+    width: 60px;
+  }
+
+  &__icon {
+    max-height: 40px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40px;
+  }
+
+  &__title {
+    @include ellipsis;
+    @include transition(color .3s ease);
+
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  &_active {
+    pointer-events: none;
+
+    .service__circle {
+      border-color: $color_blue !important;
+    }
+  }
+}

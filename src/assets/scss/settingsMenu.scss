@@ -1,0 +1,70 @@
+@import '~./global';
+
+.configurator {
+  @include transition(transform .3s ease);
+
+  background-color: $color_white;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .10);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 420px;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+
+  &__head {
+    background-color: #f1f1f1;
+  }
+
+  &__body {
+    max-height: 100%;
+    overflow: auto;
+  }
+
+  &__section {
+    padding: 20px;
+
+    & + .configurator__section {
+      border-top: 1px solid #f1f1f1;
+    }
+  }
+
+  &__label {
+    color: $color_gray;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+  }
+
+  &__textarea {
+    font-size: 14px;
+    line-height: 1.3;
+    border: none;
+    resize: none;
+    width: 100%;
+    display: block;
+  }
+
+  &_active {
+    transform: none;
+  }
+
+  @media screen and (max-width: $media-sm) {
+    &__label {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: $media-exs) {
+    &__label {
+      font-size: 11px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,3 @@
+export default {
+    CHANGE_MARKER_LOCATION: 'CHANGE_MARKER_LOCATION'
+}

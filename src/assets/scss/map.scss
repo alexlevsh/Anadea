@@ -1,0 +1,26 @@
+@import '~./global';
+
+.map {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  &__container {
+    height: 100%;
+  }
+
+  a[href^='http://maps.google.com/maps'] {
+    display: none !important;
+  }
+  a[href^='https://maps.google.com/maps'] {
+    display: none !important;
+  }
+
+  .gmnoprint a,
+  .gmnoprint span,
+  .gm-style-cc {
+    display: none;
+  }
+}

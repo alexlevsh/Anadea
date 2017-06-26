@@ -1,0 +1,24 @@
+@import '../assets/scss/reset';
+@import '../assets/scss/fonts';
+@import '../assets/scss/global';
+
+body {
+  background-color: #eaeaea;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: $font_regular;
+
+}
+
+.content {
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

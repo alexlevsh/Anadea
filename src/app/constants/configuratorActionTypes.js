@@ -1,0 +1,3 @@
+export default {
+    CHANGE_TASK_DESCRIPTION: 'CHANGE_TASK_DESCRIPTION'
+}

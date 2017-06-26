@@ -1,0 +1,63 @@
+@import '~./global';
+
+.button {
+  @include transition;
+
+  background-color: $color_blue;
+  border: none;
+  border-radius: $border-radius;
+  color: $color_white;
+  font-size: 14px;
+  letter-spacing: .61px;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background-color: darken($color_blue, 10%);
+  }
+
+  &:active {
+    background-color: darken($color_blue, 20%);
+  }
+
+  &_secondary {
+    background-color: transparent;
+    color: $color_blue;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 1px $color_blue;
+    }
+
+    &:active {
+      background-color: $color_blue;
+      color: $color_white;
+    }
+  }
+
+  &_large {
+    font-size: 15px;
+    padding: 7px 12px;
+  }
+
+  @media screen and (max-width: $media-sm) {
+    font-size: 13px;
+    padding: 4px 8px;
+
+    &_large {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+  }
+
+  @media screen and (max-width: $media-xs) {
+    font-size: 12px;
+
+    &_large {
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import '~./global';
+
+.service-tasks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+
+  &__item {
+    padding: 5px;
+  }
+
+  &__task {
+    @include transition(color .3s ease, border-color .3s ease);
+
+    border: 1px solid transparent;
+    border-radius: 57px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    padding: 5px 10px;
+
+    &:hover {
+      border-color: $color_gray;
+    }
+
+    &_active {
+      border-color: $color_blue !important;
+      pointer-events: none;
+    }
+  }
+}

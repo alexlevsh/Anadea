@@ -1,0 +1,39 @@
+@import '~./global';
+
+.header {
+  background-color: $color_white;
+  display: flex;
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  &__logo {
+    @include transition(color .3s ease);
+
+    align-items: center;
+    color: $color_red;
+    display: flex;
+    font-weight: $font_bold;
+    justify-content: center;
+    margin-right: 70px;
+
+    &:hover {
+      color: $color_blue;
+    }
+  }
+
+  @media screen and (max-width: $media-xs) {
+    height: 50px;
+  }
+
+  @media screen and (max-width: 450px) {
+    &__logo {
+      margin-right: auto;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

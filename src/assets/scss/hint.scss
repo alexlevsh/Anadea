@@ -1,0 +1,8 @@
+@import '~./global';
+
+.hint {
+    @include ellipsis;
+
+    font-size: 13px;
+    color: #606060;
+}

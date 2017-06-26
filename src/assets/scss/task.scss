@@ -1,0 +1,43 @@
+@import '~./global';
+
+.task {
+  &__date {
+    color: $color_gray;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  &__title {
+    @include ellipsis;
+
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+
+  &__buttons {
+    display: flex;
+    margin: -5px;
+  }
+
+  &__button {
+    margin: 5px;
+  }
+
+  @media screen and (max-width: $media-sm) {
+    &__title {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: $media-xs) {
+    &__date {
+      font-size: 12px;
+    }
+
+    &__title {
+      font-size: 15px;
+    }
+  }
+}

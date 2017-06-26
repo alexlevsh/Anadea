@@ -1,0 +1,3 @@
+export default {
+    CHANGE_SERVICE_TASK: 'CHANGE_SERVICE_TASK'
+}
