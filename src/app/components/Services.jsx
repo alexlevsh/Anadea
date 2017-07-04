@@ -24,7 +24,7 @@ export default class Services extends React.Component {
     render() {
         const services = this.props.data;
         const activeService = this.props.activeService;
-        
+
         return (
             services ? (
                 <ul className="services">
@@ -46,7 +46,7 @@ export default class Services extends React.Component {
                     })}
                 </ul>
             ) : (
-                <Hint text='Loading...' />
+                <Hint text='Loading...'/>
             )
         );
     }

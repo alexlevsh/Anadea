@@ -12,7 +12,7 @@
     @include ellipsis;
 
     color: #000;
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 12px;
   }
 
@@ -23,21 +23,5 @@
 
   &__button {
     margin: 5px;
-  }
-
-  @media screen and (max-width: $media-sm) {
-    &__title {
-      font-size: 16px;
-    }
-  }
-
-  @media screen and (max-width: $media-xs) {
-    &__date {
-      font-size: 12px;
-    }
-
-    &__title {
-      font-size: 15px;
-    }
   }
 }

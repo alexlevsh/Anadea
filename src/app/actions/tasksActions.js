@@ -11,7 +11,7 @@ const DATABASE_KEY = 'tasks';
 const clearData = (dispatch) => {
     dispatch(selectService(null));
     dispatch(changeDescription(null));
-    dispatch(changeLocation({ markerPosition: null, address: null }));
+    dispatch(changeLocation({markerPosition: null, address: null}));
     dispatch({
         type: actions.EDIT_TASK,
         taskId: null
@@ -40,7 +40,7 @@ export function loadTasks() {
 }
 
 export function openConfiguratorForCreate() {
-    return function(dispatch) {
+    return function (dispatch) {
         clearData(dispatch);
 
         dispatch({
@@ -58,7 +58,7 @@ export function openConfiguratorForUpdate() {
 }
 
 export function createTask(data) {
-    return function(dispatch) {
+    return function (dispatch) {
         const task = transformTaskData(data);
 
         dispatch({
@@ -73,7 +73,7 @@ export function createTask(data) {
 }
 
 export function editTask(task) {
-    return function(dispatch) {
+    return function (dispatch) {
         dispatch(openConfiguratorForUpdate());
         dispatch(selectService(task.service));
         dispatch(changeTask(task.serviceTask));
@@ -91,9 +91,9 @@ export function editTask(task) {
 }
 
 export function updateTask(data) {
-    return function(dispatch) {
+    return function (dispatch) {
         const task = transformTaskData(data);
-        
+
         dispatch({
             type: actions.UPDATE_TASK,
             task
@@ -106,7 +106,7 @@ export function updateTask(data) {
 }
 
 export function deleteTask(task) {
-    return function(dispatch) {
+    return function (dispatch) {
         dispatch({
             type: actions.DELETE_TASK,
             task

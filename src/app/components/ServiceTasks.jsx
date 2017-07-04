@@ -32,7 +32,7 @@ export default class ServiceTasks extends React.Component {
                     {serviceTasks.map(task => {
                         const classes = classNames(
                             'service-tasks__task',
-                            { 'service-tasks__task_active': !this.props.activeTask ? false : task.id === this.props.activeTask.id }
+                            {'service-tasks__task_active': !this.props.activeTask ? false : task.id === this.props.activeTask.id}
                         );
 
                         return (
@@ -47,7 +47,7 @@ export default class ServiceTasks extends React.Component {
                     })}
                 </ul>
             ) : (
-                <Hint text='Select any service type.' />
+                <Hint text='Select any service type.'/>
             )
         );
     }

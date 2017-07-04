@@ -11,13 +11,12 @@
 
   &__button {
     @include transition;
-
     border: none;
     flex-shrink: 0;
     color: $color_blue;
-    letter-spacing: .69px;
-    margin-bottom: 10px;
-    padding: 7px 10px;
+    letter-spacing: .70px;
+    margin-bottom: 12px;
+    padding: 10px 10px;
     text-transform: uppercase;
 
     &:hover {
@@ -34,7 +33,7 @@
   &__list {
     max-height: 100%;
     overflow: auto;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
 
   &__item {

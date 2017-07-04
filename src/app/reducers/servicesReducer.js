@@ -16,6 +16,7 @@ export default function reducer(state = {}, action) {
             }
         }
 
-        default: return state;
+        default:
+            return state;
     }
 }

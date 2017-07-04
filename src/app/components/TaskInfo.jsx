@@ -26,7 +26,7 @@ export default class TaskInfo extends React.Component {
     }
 
     onTaskButtonClickHandler() {
-        const { taskAction, editableTaskId, location, activeService, activeTask, taskDescription } = this.props;
+        const {taskAction, editableTaskId, location, activeService, activeTask, taskDescription} = this.props;
 
         if (location && activeService && activeTask) {
             const action = taskAction === taskActions.UPDATE_TASK ? updateTask : createTask;
@@ -42,7 +42,7 @@ export default class TaskInfo extends React.Component {
     }
 
     render() {
-        const { address, taskAction, activeService, activeTask, taskDescription, location } = this.props;
+        const {address, taskAction, activeService, activeTask, taskDescription, location} = this.props;
         const buttonText = taskAction === taskActions.UPDATE_TASK ? 'Update task' : 'Create task';
 
         return (

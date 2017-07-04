@@ -15,11 +15,11 @@ export default class Map extends React.Component {
     }
 
     onClickHandler(e) {
-        const markerPosition = { lat: e.latLng.lat(), lng: e.latLng.lng() }
+        const markerPosition = {lat: e.latLng.lat(), lng: e.latLng.lng()}
         const center = this.map.getCenter();
 
         this.setState({
-            center: { lat: center.lat(), lng: center.lng() },
+            center: {lat: center.lat(), lng: center.lng()},
             zoom: this.map.getZoom()
         });
 
@@ -34,7 +34,7 @@ export default class Map extends React.Component {
             panControl: false,
             streetViewControl: false,
             zoomControl: false
-        }
+        };
 
         const center = this.state ? this.state.center || this.props.center : this.props.center;
         const zoom = this.state ? this.state.zoom || this.props.zoom : this.props.zoom;
@@ -47,14 +47,14 @@ export default class Map extends React.Component {
                 onClick={props.onMapClick}
                 options={mapOptions}
             >
-            { this.props.markerPosition ? <Marker icon={markerIcon} position={this.props.markerPosition} /> : null }
+                { this.props.markerPosition ? <Marker icon={markerIcon} position={this.props.markerPosition}/> : null }
             </GoogleMap>
         ));
 
         return (
             <ServiceMap
-                containerElement={<div className='map' />}
-                mapElement={<div className='map__container' />}
+                containerElement={<div className='map'/>}
+                mapElement={<div className='map__container'/>}
                 onMapClick={this.onClickHandler.bind(this)}
             />
         );

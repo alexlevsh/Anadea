@@ -1,5 +1,5 @@
-{
-  "name": "anadea_react-test",
+{123
+  "name": "test",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",

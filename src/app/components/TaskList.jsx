@@ -37,7 +37,8 @@ export default class TaskList extends React.Component {
 
         return (
             <div className="task-list">
-                <button type="button" className="task-list__button card" onClick={this.onNewTaskHandler}>+ New task</button>
+                <button type="button" className="task-list__button card" onClick={this.onNewTaskHandler}>+ New task
+                </button>
 
                 <ul className="task-list__list">
                     {tasks.map(task => {

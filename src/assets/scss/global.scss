@@ -1,25 +1,24 @@
-$color_white: #fff;
 $color_black: #1a1b1f;
-$color_red: #fa4c6f;
 $color_blue: #4c71fe;
-$color_gray: #909090;
+$color_red: #fa4c6f;
 $font_regular: 400;
 $font_bold: 700;
-$border-radius: 4px;
+$color_gray: #909090;
+$color_white: #fff;
+$border-radius: 3px;
 $media-md: 1200px;
 $media-sm: 991px;
 $media-xs: 767px;
 $media-sxs: 600px;
 $media-exs: 500px;
 $z-index: (
-
 );
 
 @mixin transition($props...) {
-  @if(length($props) > 0) {
+  @if (length($props) > 0) {
     transition: $props;
   } @else {
-    transition: all .3s ease;
+    transition: all .2s ease;
   }
 }
 

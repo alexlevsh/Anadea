@@ -32,13 +32,13 @@ export default class Configurator extends React.Component {
             this.props.dispatch(changeDescription(''));
     }
 
-    onDescriptionTextareaChangeHandler(e) {
-        this.props.dispatch(changeDescription(e.target.value));
+    onDescriptionTextareaChangeHandler(el) {
+        this.props.dispatch(changeDescription(el.target.value));
     }
 
     render() {
-        const { activeConfigurator, taskAction, address, taskDescription } = this.props;
-        const classes = classNames('configurator', { 'configurator_active': activeConfigurator });
+        const {activeConfigurator, taskAction, address, taskDescription} = this.props;
+        const classes = classNames('configurator', {'configurator_active': activeConfigurator});
         const taskActionLabel = taskAction === tasksActions.UPDATE_TASK ? 'Update task' : 'New task';
 
         return (
@@ -51,7 +51,7 @@ export default class Configurator extends React.Component {
                 <div className="configurator__body">
                     <div className="configurator__section">
                         <p className="configurator__label">Location</p>
-                        {address ? (<p>{address}</p>) : (<Hint text='' />)}
+                        {address ? (<p>{address}</p>) : (<Hint text=''/>)}
                     </div>
 
                     <div className="configurator__section">

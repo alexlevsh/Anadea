@@ -1,7 +1,7 @@
 import actions from "../constants/mapActionTypes";
 
 const initalState = {
-    center: { lat: 6.452708, lng: 3.389985 },
+    center: {lat: 6.452708, lng: 3.389985},
     zoom: 17,
     markerPosition: null
 }
@@ -16,6 +16,7 @@ export default function reducer(state = initalState, action) {
             }
         }
 
-        default: return state;
+        default:
+            return state;
     }
 }

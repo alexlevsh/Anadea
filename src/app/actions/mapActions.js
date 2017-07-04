@@ -1,7 +1,7 @@
 import actions from "../constants/mapActionTypes";
 
 export function changeLocation(location) {
-    return function(dispatch) {
+    return function (dispatch) {
         const action = {
             type: actions.CHANGE_MARKER_LOCATION,
             ...location
@@ -17,7 +17,7 @@ export function changeLocation(location) {
                 .then(data => {
                     dispatch({
                         ...action,
-                        address: data.results[0].formatted_address
+                        address: data.results[1].formatted_address
                     });
                 })
                 .catch(e => {

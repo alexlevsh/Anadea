@@ -13,7 +13,7 @@ export function loadServices() {
 }
 
 export function selectService(activeService) {
-    return function(dispatch) {
+    return function (dispatch) {
         dispatch({
             type: servicesActions.SELECT_SERVICE,
             activeService

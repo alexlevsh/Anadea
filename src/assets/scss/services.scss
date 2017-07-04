@@ -10,12 +10,4 @@
   &__item {
     padding: 5px 7px;
   }
-
-  @media screen and (max-width: 420px) {
-    justify-content: flex-start;
-
-    &__item {
-      flex-basis: percentage(1 / 3);
-    }
-  }
 }

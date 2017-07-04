@@ -16,7 +16,7 @@ export default function reducer(state = initalState, action) {
         }
 
         case actions.LOAD_TASKS: {
-            return { ...state, data: action.data }
+            return {...state, data: action.data}
         }
 
         case actions.CREATE_TASK: {
@@ -54,6 +54,7 @@ export default function reducer(state = initalState, action) {
             }
         }
 
-        default: return state;
+        default:
+            return state;
     }
 }
