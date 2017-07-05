@@ -68,7 +68,7 @@ export default class Configurator extends React.Component {
                         <p className="configurator__label">Task description</p>
                         <Textarea
                             className="configurator__textarea"
-                            value={taskDescription != null ? taskDescription : "Describe the task"}
+                            value={taskDescription != null ? taskDescription : "Add task"}
                             onFocus={this.onDescriptionTextareaFocusHandler}
                             onChange={this.onDescriptionTextareaChangeHandler}
                         />
