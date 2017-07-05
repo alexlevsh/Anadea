@@ -7,23 +7,27 @@ export default {
             "tasks":  [
                 {
                     "id":  "1bhpq6a",
-                    "name":  "Install a TV-set"
+                    "name":  "Unblock a toilet"
                 },
                 {
                     "id":  "1s91n6c",
-                    "name":  "Change a lightbulb"
+                    "name":  "Unblock a silk"
                 },
                 {
                     "id":  "13duesv",
-                    "name":  "Repair wiring"
+                    "name":  "Fix a water leak"
                 },
                 {
                     "id":  "1i0lbq9",
-                    "name":  "Install a numerator"
+                    "name":  "Install a sink"
                 },
                 {
                     "id":  "17bgq8",
-                    "name":  "Inspect house"
+                    "name":  "Install a shower"
+                },
+                {
+                    "id":  "1hbuq6",
+                    "name":  "Install a toilet"
                 }
             ]
         },
@@ -34,23 +38,27 @@ export default {
             "tasks":  [
                 {
                     "id":  "ealqha",
-                    "name":  "Pipe change"
+                    "name":  "Unblock a toilet"
                 },
                 {
                     "id":  "rlqoor",
-                    "name":  "Install a washing machine"
+                    "name":  "Unblock a silk"
                 },
                 {
                     "id":  "1etkum4",
-                    "name":  "Repair a washing machine"
+                    "name":  "Fix a water leak"
                 },
                 {
                     "id":  "17qu934",
-                    "name":  "Remove pipe clog"
+                    "name":  "Install a sink"
                 },
                 {
                     "id":  "1omc08a",
-                    "name":  "Install sanitary engineering"
+                    "name":  "Install a shower"
+                },
+                {
+                    "id":  "1tul16a",
+                    "name":  "Install a toilet"
                 }
             ]
         },
@@ -61,23 +69,27 @@ export default {
             "tasks":  [
                 {
                     "id":  "1os7ce3",
-                    "name":  "Water plants"
+                    "name":  "Unblock a toilet"
                 },
                 {
                     "id":  "b1gl3b",
-                    "name":  "Install irrigation system"
+                    "name":  "Unblock a silk"
                 },
                 {
                     "id":  "4s562i",
-                    "name":  "Repair irrigation system"
+                    "name":  "Fix a water leak"
                 },
                 {
                     "id":  "dcmasl",
-                    "name":  "Inspect garden"
+                    "name":  "Install a sink"
                 },
                 {
                     "id":  "lm1k6j",
-                    "name":  "Deliver fertilizer"
+                    "name":  "Install a shower"
+                },
+                {
+                    "id":  "1h1z6j",
+                    "name":  "Install a toilet"
                 }
             ]
         },
@@ -88,23 +100,27 @@ export default {
             "tasks":  [
                 {
                     "id":  "qj83ig",
-                    "name":  "Clean rooms"
+                    "name":  "Unblock a toilet"
                 },
                 {
                     "id":  "1sinbl0",
-                    "name":  "Wash the dishes"
+                    "name":  "Unblock a silk"
                 },
                 {
                     "id":  "qdrri9",
-                    "name":  "Look after children"
+                    "name":  "Fix a water leak"
                 },
                 {
                     "id":  "1p2gm3d",
-                    "name":  "Ironing"
+                    "name":  "Install a sink"
                 },
                 {
                     "id":  "j47s7j",
-                    "name":  "Wash clothes"
+                    "name":  "Install a shower"
+                },
+                {
+                    "id":  "g47z5j",
+                    "name":  "Install a toilet"
                 }
             ]
         },
@@ -115,23 +131,27 @@ export default {
             "tasks":  [
                 {
                     "id":  "1e4994t",
-                    "name":  "Cook the dishes"
+                    "name":  "Unblock a toilet"
                 },
                 {
                     "id":  "15pmjrs",
-                    "name":  "Buy grocery"
+                    "name":  "Unblock a silk"
                 },
                 {
                     "id":  "koriqv",
-                    "name":  "Deliver meals"
+                    "name":  "Fix a water leak"
                 },
                 {
                     "id":  "hjjqq2",
-                    "name":  "Make cocktails"
+                    "name":  "Install a sink"
                 },
                 {
                     "id":  "p1i781",
-                    "name":  "Make up menu"
+                    "name":  "Install a shower"
+                },
+                {
+                    "id":  "z1i741",
+                    "name":  "Install a toilet"
                 }
             ]
         }
@@ -147,24 +167,28 @@ export default {
                 "name": "Plumber",
                 "tasks": [
                     {
-                        "id": "ealqha",
-                        "name": "Pipe change"
+                        "id":  "ealqha",
+                        "name":  "Unblock a toilet"
                     },
                     {
-                        "id": "rlqoor",
-                        "name": "Install a washing machine"
+                        "id":  "rlqoor",
+                        "name":  "Unblock a silk"
                     },
                     {
-                        "id": "1etkum4",
-                        "name": "Repair a washing machine"
+                        "id":  "1etkum4",
+                        "name":  "Fix a water leak"
                     },
                     {
-                        "id": "17qu934",
-                        "name": "Remove pipe clog"
+                        "id":  "17qu934",
+                        "name":  "Install a sink"
                     },
                     {
-                        "id": "1omc08a",
-                        "name": "Install sanitary engineering"
+                        "id":  "1omc08a",
+                        "name":  "Install a shower"
+                    },
+                    {
+                        "id":  "1tul16a",
+                        "name":  "Install a toilet"
                     }
                 ]
             },
@@ -187,24 +211,28 @@ export default {
                 "name": "Gardener",
                 "tasks": [
                     {
-                        "id": "1os7ce3",
-                        "name": "Water plants"
+                        "id":  "1os7ce3",
+                        "name":  "Unblock a toilet"
                     },
                     {
-                        "id": "b1gl3b",
-                        "name": "Install irrigation system"
+                        "id":  "b1gl3b",
+                        "name":  "Unblock a silk"
                     },
                     {
-                        "id": "4s562i",
-                        "name": "Repair irrigation system"
+                        "id":  "4s562i",
+                        "name":  "Fix a water leak"
                     },
                     {
-                        "id": "dcmasl",
-                        "name": "Inspect garden"
+                        "id":  "dcmasl",
+                        "name":  "Install a sink"
                     },
                     {
-                        "id": "lm1k6j",
-                        "name": "Deliver fertilizer"
+                        "id":  "lm1k6j",
+                        "name":  "Install a shower"
+                    },
+                    {
+                        "id":  "1h1z6j",
+                        "name":  "Install a toilet"
                     }
                 ]
             },
@@ -227,25 +255,30 @@ export default {
                 "name": "Electrician",
                 "tasks": [
                     {
-                        "id": "1bhpq6a",
-                        "name": "Install a TV-set"
+                        "id":  "1bhpq6a",
+                        "name":  "Unblock a toilet"
                     },
                     {
-                        "id": "1s91n6c",
-                        "name": "Change a lightbulb"
+                        "id":  "1s91n6c",
+                        "name":  "Unblock a silk"
                     },
                     {
-                        "id": "13duesv",
-                        "name": "Repair wiring"
+                        "id":  "13duesv",
+                        "name":  "Fix a water leak"
                     },
                     {
-                        "id": "1i0lbq9",
-                        "name": "Install a numerator"
+                        "id":  "1i0lbq9",
+                        "name":  "Install a sink"
                     },
                     {
-                        "id": "17bgq8",
-                        "name": "Inspect house"
+                        "id":  "17bgq8",
+                        "name":  "Install a shower"
+                    },
+                    {
+                        "id":  "1hbuq6",
+                        "name":  "Install a toilet"
                     }
+
                 ]
             },
             "serviceTask": {
@@ -267,24 +300,28 @@ export default {
                 "name": "Cook",
                 "tasks": [
                     {
-                        "id": "1e4994t",
-                        "name": "Cook the dishes"
+                        "id":  "1e4994t",
+                        "name":  "Unblock a toilet"
                     },
                     {
-                        "id": "15pmjrs",
-                        "name": "Buy grocery"
+                        "id":  "15pmjrs",
+                        "name":  "Unblock a silk"
                     },
                     {
-                        "id": "koriqv",
-                        "name": "Deliver meals"
+                        "id":  "koriqv",
+                        "name":  "Fix a water leak"
                     },
                     {
-                        "id": "hjjqq2",
-                        "name": "Make cocktails"
+                        "id":  "hjjqq2",
+                        "name":  "Install a sink"
                     },
                     {
-                        "id": "p1i781",
-                        "name": "Make up menu"
+                        "id":  "p1i781",
+                        "name":  "Install a shower"
+                    },
+                    {
+                        "id":  "z1i741",
+                        "name":  "Install a toilet"
                     }
                 ]
             },
@@ -307,24 +344,28 @@ export default {
                 "name": "Housekeeper",
                 "tasks": [
                     {
-                        "id": "qj83ig",
-                        "name": "Clean rooms"
+                        "id":  "qj83ig",
+                        "name":  "Unblock a toilet"
                     },
                     {
-                        "id": "1sinbl0",
-                        "name": "Wash the dishes"
+                        "id":  "1sinbl0",
+                        "name":  "Unblock a silk"
                     },
                     {
-                        "id": "qdrri9",
-                        "name": "Look after children"
+                        "id":  "qdrri9",
+                        "name":  "Fix a water leak"
                     },
                     {
-                        "id": "1p2gm3d",
-                        "name": "Ironing"
+                        "id":  "1p2gm3d",
+                        "name":  "Install a sink"
                     },
                     {
-                        "id": "j47s7j",
-                        "name": "Wash clothes"
+                        "id":  "j47s7j",
+                        "name":  "Install a shower"
+                    },
+                    {
+                        "id":  "g47z5j",
+                        "name":  "Install a toilet"
                     }
                 ]
             },
